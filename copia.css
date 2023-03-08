@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Phudu&family=Tilt+Prism&display=swap');
+
+body{
+	background: #FAFAFA ;
+}	
+
+/*Estilos portada (header)*/
+.header{
+	padding-bottom:	400px; /*Margen "interno" bajo*/
+	padding-top:	400px; /*Margen "interno" arriba*/
+
+	/*propiedades de fondo*/
+	background-color:	red; /*color solido de fondo*/
+	background-image:	url(U97FRoF.png); /*imagen de fondo*/
+	background-repeat:	no-repeat; /*repeticion de imagen*/
+	background-attachment: fixed; /*el fondo se mueve o no*/
+	background-size:	cover; 
+	background-position:center center;
+
+}
+
+h1{
+	text-align:	center;
+	font-size:	15em;
+	color:	#4cd463;
+	font-family:	tilt prism;
+}
+
+/*Ejemplo de marcar la etiqueta p de dentro de .head*/
+.header p{
+	text-align:	center;
+	color:	white;
+	font-family:	Phudu;
+	font-size:	9em;
+}
+
+.header h1{
+	text-align:	center;
+	margin-top:	1px; /*ponemos a 0 el margen de arriba*/
+	margin-bottom:	1px; /*ponemos a 0 el margen de abajo*/ 
+}
+
+/*propiedades seccio 1*/
+.sec1{
+	background: #FAFAFA;
+	padding-top:	100px;
+}
+
+.sec1 p{
+	margin:	50px 120px; /*margenes de separacion*/
+	padding:	30px;
+	box-shadow:	0px 0px 6px gray; /*sombrear una etiqueta*/
+	border-radius:	7px; /*borde sombreado*/
+}
+.sec3{
+	wight:	70px;
+}
+.sec3 img{
+	width: 300px;
+	margin: 0px 30px;
+}
+.bosses p{
+	list-style-type: square;
+}
